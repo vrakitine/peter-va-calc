@@ -1,12 +1,15 @@
+import Link from 'next/link';
+import React from 'react';
+
 import Image from 'next/image';
-import { useRouter } from 'next/router';
+//import { useRouter } from 'next/router';
 
 export default function Home() {
 
-  const router = useRouter();
-  const gotoHomePage = () => {
-    router.push('/');
-  };
+  //const router = useRouter();
+  //const gotoHomePage = () => {
+    //router.push('/');
+  //};
 
 
   return (
@@ -16,7 +19,9 @@ export default function Home() {
           Get started by editing DASHBOARD&nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
         </p>
-        <h3><button onClick={gotoHomePage}>Go to Home Page</button></h3>
+        <Link href="/">
+        <a>Go to Home Page</a>
+      </Link>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
