@@ -1,4 +1,4 @@
-import HiPeter from './HiPeter';
+import HiPeter from './components/HiPeter';
 
 export default function Home() {
   return (
