@@ -20,7 +20,7 @@ export default function Home() {
           <code className="font-mono font-bold">app/page.tsx</code>
         </p>
         <Link href="/">
-        <a>[Go to Home Page]</a>
+        <a>Go to Home Page</a>
       </Link>
       
 
